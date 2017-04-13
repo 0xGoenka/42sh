@@ -6,7 +6,7 @@
 /*   By: eleclet <eleclet@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/03 15:31:43 by eleclet           #+#    #+#             */
-/*   Updated: 2017/04/13 18:45:07 by eleclet          ###   ########.fr       */
+/*   Updated: 2017/04/13 18:59:33 by eleclet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,12 +32,12 @@
 # define BACKSPACE s[0] == 127 && s[1] == 0
 # define DEL s[0] == 27 && s[1] == 91 && s[2] == 51
 # define CTRL_D s[0] == 4
-# define HOME s[0] == 27 && s[1] == 91 && s[2] == 53
-# define END s[0] == 27 && s[1] == 91 && s[2] == 54
-# define CTRL_RIGHT s[2] == 49 && s[4] == 53 && s[5] == 67
-# define CTRL_LEFT s[2] == 49 && s[4] == 53 && s[5] == 68
-# define CTRL_DO s[2] == 49 && s[4] == 53 && s[5] == 66
-# define CTRL_UP s[2] == 49 && s[4] == 53 && s[5] == 65
+# define HOME s[0] == 27 && s[1] == 91 && s[2] == 72
+# define END s[0] == 27 && s[1] == 91 && s[2] == 70
+# define CTRL_RIGHT s[2] == 91 && s[3] == 67
+# define CTRL_LEFT s[2] == 91 && s[3] == 68
+# define CTRL_DO s[2] == 91 && s[3] == 66
+# define CTRL_UP s[2] == 91 && s[3] == 65
 # define ALT_C s[0] == -61 && s[1] == -89 && s[2] == 0
 # define ALT_V s[0] == -30 && s[1] == -120 && s[2] == -102
 # define ENTER s[0] == 10 && s[1] == 0
